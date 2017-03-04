@@ -79,7 +79,9 @@ public class SAXParserDemo{
                 System.out.println("End parsing");
             }
         });
-        parser.parse("src/test.xml");
+	
+	//调用此方式，开始解析	
+        parser.parse("src/test.xml");
     }
 }
 ```
